@@ -33,7 +33,6 @@ create table if not exists Tracks (
 	duration integer not null
 );
 
-
 create table if not exists Collections (
 	id SERIAL primary key,
 	name text not null,
